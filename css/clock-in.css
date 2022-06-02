@@ -1,0 +1,43 @@
+.container {
+	width: 200px;
+	margin: 0 auto;
+	padding: 8px;
+	text-align: center;
+}
+
+.header {
+	width: 200px;
+	margin: 10px 5px 20px 5px;
+}
+
+.operation {
+	width: 200px;
+	margin: 20px 0;
+}
+
+.list {
+	width: 200px;
+}
+
+.list dl {
+	border-top: 1px solid black;
+}
+
+.list dl dt {
+	border-bottom: 1px solid black;
+}
+
+.clock-in-btn {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin: 10px auto;
+}
+
+.login-form {
+	width: 200px;
+	margin: 10px auto;
+}
