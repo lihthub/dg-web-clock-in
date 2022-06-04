@@ -7,7 +7,8 @@
 
 .header {
 	width: 200px;
-	margin: 10px 5px 20px 5px;
+	margin: 10px 2px 20px 2px;
+	color: skyblue;
 }
 
 .operation {
@@ -20,24 +21,43 @@
 }
 
 .list dl {
-	border-top: 1px solid black;
+	border-top: 1px solid skyblue;
 }
 
 .list dl dt {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid skyblue;
 }
 
 .clock-in-btn {
 	width: 50px;
 	height: 50px;
-	border: 1px solid black;
+	border: 1px solid skyblue;
 	border-radius: 50px;
 	text-align: center;
 	line-height: 50px;
 	margin: 10px auto;
+	cursor: pointer;
+	outline: none;
+	color: skyblue;
+}
+
+.login-bg {
+	width: 200px;
+	height: 110px;
+	margin: 20px auto;
 }
 
 .login-form {
 	width: 200px;
-	margin: 10px auto;
+	margin: 20px auto;
+}
+
+.login-form input {
+	width: 80%;
+	height: 20px;
+	padding: 3px;
+	margin: 10px;
+	border: 1px solid skyblue;
+	border-radius: 5px;
+	outline: none;
 }
