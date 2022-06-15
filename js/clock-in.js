@@ -21,9 +21,5 @@ $(function(){
 	setInterval(function() {
 		$('.header').text((new Date()).getFormattedDate("yyyy/MM/dd hh:mm:ss"));
 	}, 1000);
-
-
-
 	
-
 });
